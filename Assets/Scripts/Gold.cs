@@ -29,7 +29,7 @@ public class Gold: MonoBehaviour {
 			isMoveFollow = true;
             Hook.instance.cameraOut = false;
 			HookBase.instance.hookState = HookState.Backward;
-			Hook.instance.velocity = -Hook.instance.GetComponent<Hook>().velocity;
+			Hook.instance.velocity = -Hook.instance.velocity;
 			Hook.instance.speed -= this.speed;            
         }        
 	}

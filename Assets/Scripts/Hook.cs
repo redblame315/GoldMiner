@@ -55,8 +55,6 @@ public class Hook : MonoBehaviour
 		checkBackState();
 		checkMoveOutCameraView();
 
-		speed = 4;
-
 		positionHalfHook = halfHook.gameObject.transform.position;
         scaleHalfHook = halfHook.gameObject.transform.localScale;
         if (HookBase.instance.hookState == HookState.Backward && !cameraOut)
